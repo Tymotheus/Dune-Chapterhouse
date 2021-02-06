@@ -1,8 +1,3 @@
-
-let myAbout = document.getElementById('42')
-
-export function isEmpty(arr) { return arr.length === 0 }
-
 export function fetcher(url, callback, options = {})
 {
     (async () =>
