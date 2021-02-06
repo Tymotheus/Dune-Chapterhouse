@@ -101,3 +101,4 @@ https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 https://www.freecodecamp.org/news/a-quick-but-complete-guide-to-indexeddb-25f030425501/
 https://javascript.info/indexeddb
 https://plnkr.co/edit/veG9pDMaRQvMnY4Y?p=preview&preview
+https://javascript.info/article/indexeddb/books/
