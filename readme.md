@@ -74,8 +74,18 @@ Podsumowanie na 04/02/2021
 -> Pozwala rejestrować nowych użytkowników i się logować (baza danych userów)
 -> Pozwala im dodawać posty oraz updejtować i usuwać
 
+Question: Is my web app stateless???
+
 To do:
-- ogarnąć API Rest do tego
+- ogarnąć API Rest do tego -
 - ogarnąć IndexedDb - żeby user mógł sobie dodać post online :)
 - wystawić to na jakimś serwie
 - czy logowanie korzysta z sesji?
+
+
+Notes:
+- the current problem with registering users - you can register infinite number of them on any emails - you are not validating them in any way
+
+Flask Notes and the folder structure:
+- By default, Flask is looking into 2 important folders: templates and static.
+First one contains our template pages while the second one - css, javascript files etc.

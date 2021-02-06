@@ -38,5 +38,29 @@
           {{ form.submit(class="btn btn-outline-info") }}
       </div>
   </form>
+
 </div>
+<script>
+  addEventListener("load", ()=>
+  {
+
+    function updateOnlineStatus(event) {
+      const isOnline = navigator.onLine
+      if (isOnline) {
+        const URL = API + "resources/patients/create"
+        const idb = new OfflineDatabase("offDB", 1, "formData", "email")
+        idb.getAll("formData").then(result => {
+          result.forEach(element => {
+            sender(URL, element)
+          })
+        }
+        )
+        idb.deleteAll("formData").then(e => alert("Wysłano zachowane dane"))
+      }
+    }
+
+    addEventListener("online",  updateOnlineStatus);
+    addEventListener("offline", updateOnlineStatus);
+  })
+</script>
 {% endblock content %}
