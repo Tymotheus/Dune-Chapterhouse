@@ -89,3 +89,15 @@ Notes:
 Flask Notes and the folder structure:
 - By default, Flask is looking into 2 important folders: templates and static.
 First one contains our template pages while the second one - css, javascript files etc.
+
+REST API wykorzystywane jest do komunikacji klienta Dockera z daemonem Dockera.
+
+Apka wystawiona jest we flasku korzystając z Dockera.
+Wszystkie potrzebne dependencje zawarte są w pliku Dockerfile.
+
+
+IndexedDB important links:
+https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+https://www.freecodecamp.org/news/a-quick-but-complete-guide-to-indexeddb-25f030425501/
+https://javascript.info/indexeddb
+https://plnkr.co/edit/veG9pDMaRQvMnY4Y?p=preview&preview
