@@ -1,3 +1,6 @@
+NOTE 10.02.2021
+The project is accessible on the Heroku platform. However due to the Heroku deploying policies, after 1-hour of not using, the app is put into the "asleep mode". It makes it necessary to rebuild the app after it is in asleep mode and hence - all posts added after the deploy (which were not in the original database stored in GitHub) are purged.
+
 Dune blog. Flask project for the Internet Technologies course.
 
 Temat:
